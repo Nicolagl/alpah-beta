@@ -1,0 +1,37 @@
+<view>
+
+ 
+ 
+
+  
+ 
+
+  <view class="cart-shop-list"bindtap="gotodian">
+
+    <!--购物车商品列表 bindtap = "onItemClick"class="ui-flex ui-pt-10"-->
+    <view wx:for="{{cartShopList}}">
+      <view class="ui-flex ui-padding-10" data-item-index = "{{index}}" >
+        <view>
+          <image class="cart-shop-img" src="{{item.shopImg}}"bindtap="gotodian"></image>
+        </view>
+        <view class="ui-pl-10 ui-pr-10">
+          <view>
+            <text class="cart-shop-title">{{item.shopTitle}}</text>
+          </view>
+          <view>
+            <text class="cart-shop-select-info ui-pt-10">{{item.shopSelectInfo}}</text>
+          </view>
+          <view class="ui-pl-10 ui-pr-10">
+            <text class="cart-shop-price ui-width-20">{{item.shopPrice}}</text>
+            
+          </view>
+        </view>
+      </view>
+      <view class="line"></view>
+    </view>
+  
+    <view>
+    </view>
+  </view>
+</view>
+

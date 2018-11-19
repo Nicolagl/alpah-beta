@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopcart/shopcart",
+    "pages/mine/mine",
+    "pages/huawei/huawei",
+    "pages/shopinfo/shopinfo",
+    "pages/address/address",
+    "pages/addresslist/addresslist",
+    "pages/拍照",
+    "pages/zixuan/zixuan",
+    "pages/zixuan/onpay",
+    "pages/shop/shop",
+    "pages/shop/dianpu"
+  ],
+  "window": {
+    "backgroundColor": "1a9dde",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "f6dc34",
+    "navigationBarTitleText": "我的商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#f4ea2a",
+    "backgroundColor": "#000000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/index_icon.png",
+        "selectedIconPath": "img/index_icon_active.png"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "非自选",
+        "iconPath": "img/cart.png",
+        "selectedIconPath": "img/cart_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "img/mine_icon.png",
+        "selectedIconPath": "img/mine_icon_active.png"
+      }
+    ]
+  }
+}
